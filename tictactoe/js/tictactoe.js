@@ -109,7 +109,6 @@ var score = {
 
 
 function clickHandler(event) {
- 
     var x = Math.floor((event.clientX-canvas.offsetLeft)/(width/3));
     var y = Math.floor((event.clientY - canvas.offsetTop) / (height / 3));
 
@@ -144,7 +143,7 @@ function clickHandler(event) {
 
     } else {
         alert('cell occupied');
-}
+    }
 }
 
 function incrementScores() {
